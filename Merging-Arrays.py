@@ -16,7 +16,7 @@ def merge(a, b):
             n += 1
         elif b[m] < a[n]:
             list.append(b[m])
-            n += 1
+            m += 1
 
     return list + a[n:] + b[m:]
 
